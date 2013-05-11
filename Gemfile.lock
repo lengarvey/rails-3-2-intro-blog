@@ -67,6 +67,7 @@ GEM
       railties (~> 3.1)
       warden (~> 1.2.1)
     diff-lcs (1.2.1)
+    ejs (1.0.0)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -119,6 +120,10 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
+    rails-backbone (0.7.2)
+      coffee-script (~> 2.2.0)
+      ejs (~> 1.0.0)
+      railties (>= 3.1.0)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -183,6 +188,7 @@ DEPENDENCIES
   meta_search (>= 1.1.0.pre)
   pg
   rails (~> 3.2.1)
+  rails-backbone
   redcarpet
   rouge
   rspec-rails (~> 2.0)
