@@ -37,3 +37,8 @@ gem 'rouge'
 
 
 gem "rails-backbone"
+
+gem 'better_errors'
+gem 'binding_of_caller'
+
+gem 'debugger'

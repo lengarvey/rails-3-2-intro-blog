@@ -17,3 +17,7 @@
 	</p>
 	<p><%= f.submit "Add comment" %></p>
 <% end %>
+
+<script>
+  window.commentsView = new QuickBlog.Views.Comments.CreateCommentView({el: $('#new_comment')})
+</script>
